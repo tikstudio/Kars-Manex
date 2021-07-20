@@ -4,7 +4,7 @@ import Storage from './helpers/Account'
 import md5 from 'md5';
 
 const api = axios.create({
-  baseURL: 'https://kars-manex-3-dhprn.ondigitalocean.app',
+  baseURL: 'http://localhost:5000',
 });
 
 api.interceptors.request.use((config) => {

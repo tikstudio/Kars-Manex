@@ -17,6 +17,7 @@
     "axios": "^0.21.1",
     "clsx": "^1.1.1",
     "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
     "form-serialize": "^0.7.2",
     "lodash": "^4.17.21",
     "material-design-icons": "^3.0.1",
@@ -47,8 +48,8 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "env-cmd -f .env react-scripts start",
+    "build": "env-cmd -f .env react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
