@@ -3,7 +3,10 @@ module.exports = function headers(req, res, next) {
     const {headers: {origin = '*'}} = req;
     const allowOrigins = [
       'http://localhost:3000',
+      'https://localhost:3000',
       'http://karsmanex.am',
+      'https://karsmanex.am',
+      'https://kars-manex-cleqf.ondigitalocean.app',
       'http://206.81.19.187',
       process.env.DOMAIN,
     ];
