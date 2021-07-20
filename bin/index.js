@@ -5,7 +5,7 @@
  */
 const Debug = require('debug');
 const http = require('http');
-const app = require('../app');
+const app = require('../server');
 
 Debug('server:Kars&Manex');
 /**
