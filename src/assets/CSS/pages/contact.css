@@ -1,0 +1,56 @@
+.contact__container {
+    width: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.contact__content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 100px;
+}
+
+.contact__form {
+    width: 40%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__form .MuiOutlinedInput-notchedOutline {
+    border-color: white;
+}
+
+.contact__form h3 {
+    color: white;
+}
+
+.contact__input {
+    width: 100%;
+    margin-bottom: 10px !important;
+    border-radius: 4px;
+}
+
+.contact__input label {
+    color: white !important;
+}
+
+.successMessage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+}
+
+.successMessage .close{
+    background-color: #ba0101;
+}
+

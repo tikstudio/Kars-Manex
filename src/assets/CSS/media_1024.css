@@ -1,0 +1,135 @@
+@media screen and (max-width: 1175px) and (min-width: 1024px) {
+    .container {
+        max-width: 99%;
+    }
+
+    .converter__select option {
+        color: black;
+    }
+
+    .banner__search {
+        margin-top: 50px;
+    }
+
+    .home__banner_video {
+        object-position: right;
+    }
+
+    .home__banner_logo {
+        font-size: 46px;
+    }
+
+    .dropdown-toggle .header__span {
+        display: none;
+    }
+
+    .login__button_container {
+        transform: translate(-20px, -20px) !important;
+    }
+
+    .user__button_container {
+        transform: translate(-70%, -80%) !important;
+    }
+
+    .form.form--search.js-search-form.form--light.form--banner-sidebar.form--anim {
+        width: 62%;
+    }
+
+    .form--banner-sidebar .form__submit {
+        font-size: 12px !important;
+    }
+
+    .product__length {
+        width: 14%;
+    }
+
+    .sort_content {
+        justify-content: center;
+    }
+
+    .user__filter_area .MuiInputLabel-outlined, .user__filter_area .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        font-size: 12px !important;
+    }
+
+    .product__info_item {
+        flex-wrap: wrap;
+        line-height: 1.4;
+    }
+
+    .photos__content {
+        height: 80%;
+    }
+
+    .photos__content li {
+        font-size: 14px !important;
+    }
+
+    .user__filter_block .MuiFormLabel-root {
+        font-size: 12px !important;
+    }
+
+    .product__user_name {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .product__user_email {
+        font-size: 12px;
+    }
+
+    .product__info_item p:nth-child(odd) {
+        margin-bottom: 5px;
+    }
+
+    .user_profile {
+        width: 50%;
+    }
+
+    .product__edit_image,
+    .imageEdit {
+        height: 170px;
+    }
+
+    .picturesEdit,
+    .product__edit_pictures {
+        height: 60px;
+    }
+
+    .add__product_area label {
+        font-size: 12px !important;
+    }
+
+    .login__form {
+        width: 30%;
+    }
+
+    .login__rgf_row .register {
+        width: 58% !important;
+        font-size: 12px;
+    }
+
+    .login__rgf_row .auth__forgot {
+        font-size: 12px;
+    }
+
+    .YMaps {
+        max-width: 350px;
+    }
+
+    .edit__price_block {
+        width: 45%;
+    }
+
+    .register__bg_image {
+        height: 100%;
+        object-position: left;
+    }
+
+    .register__content {
+        padding-top: 120px;
+    }
+
+    .login__container {
+        background-position: unset !important;
+    }
+}

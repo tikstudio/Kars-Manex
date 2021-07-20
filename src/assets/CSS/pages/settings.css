@@ -1,0 +1,51 @@
+.user__update_profile {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.user__update_profile #avatar__image {
+    box-shadow: 3px 3px 3px black;
+    background: whitesmoke;
+}
+
+.user__update_row {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user__update_input {
+    width: 90%;
+}
+
+.settings__buttons {
+    width: 20%;
+    word-break: keep-all;
+    color: black;
+}
+
+.user__filter_row {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user__filter_block {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    z-index: 1;
+}

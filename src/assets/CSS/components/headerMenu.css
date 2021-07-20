@@ -1,0 +1,77 @@
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.header__menu_link {
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 50px;
+    margin: 0 10px;
+    box-shadow: 0 0 3px white;
+    font-size: 14px;
+}
+
+.header__menu_link:hover {
+    color: #ba0101;
+    box-shadow: 0 0 3px #ba0101;
+    transition: all 0.5s;
+}
+
+.header__menu_link#shop {
+    border-radius: 30px;
+}
+
+.header__menu_link#shop:hover {
+    transition: all 0.5s;
+}
+
+.header__menu_link:active {
+    color: black;
+}
+
+.header__menu_link.active:active {
+    color: darkgoldenrod;
+}
+
+.header__menu_link.active,
+.header__menu_link.active#shop {
+    height: 55%;
+    line-height: 1;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
+    background: linear-gradient(rgba(186, 1, 1, 0.1), rgba(186, 1, 1, 0.9), rgba(186, 1, 1, 0.1));
+}
+
+.header__menu_link.active:hover,
+.header__menu_link.active#shop:hover {
+    color: black;
+    background: linear-gradient(rgba(186, 1, 1, 0.5), rgba(255, 255, 255, 1), rgba(186, 1, 1, 0.5));
+    transition-duration: 0.5s;
+}
+
+.menu__button {
+    display: none;
+}
+
+.menu__button.active {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.menu__button .MuiListItemIcon-root {
+    min-width: 35px;
+}
+
+.navLink__buttons_block {
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

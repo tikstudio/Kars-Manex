@@ -1,0 +1,151 @@
+.cars__header {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    background-color: #2c3e50;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.cars__header_content {
+    width: 100%;
+    height: 100px;
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cars__search_area {
+    width: 50%;
+    padding-bottom: 5px;
+    margin-left: 12%;
+}
+
+#cars__search_input {
+    width: 75%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    font-weight: bold;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.9));
+    color: white;
+}
+
+#cars__search_input:hover {
+    box-shadow: 3px 3px 5px #2c3e50;
+}
+
+.cars__search_button {
+    width: 25%;
+    height: 40px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    font-weight: bold;
+    background: linear-gradient(#ba0101, rgba(186, 1, 1, 0.3), #ba0101);
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.cars__search_button:hover {
+    color: black;
+    box-shadow: 3px 3px 5px #2c3e50;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+}
+
+.product__content_row {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cars__sort_area {
+    width: 98%;
+    height: 30px;
+    background: linear-gradient(#404040, black, #404040);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cars__length {
+    width: 10%;
+    word-break: keep-all;
+    padding-left: 8px;
+}
+
+.product__item_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cars__filter_container {
+    width: 22%;
+    background: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.cars__filter_container hr {
+    width: 100%;
+    border-color: lightgray;
+}
+
+.cars__filter_container .MuiSelect-icon,
+.cars__filter_container .MuiFormLabel-root {
+    margin-bottom: 5px;
+}
+
+.filter__price_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.filter__year_block,
+.filter__motor_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.filter__year_label,
+.filter__run_label,
+.filter__horsepower_label,
+.filter__motor_label {
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.54);
+}
+

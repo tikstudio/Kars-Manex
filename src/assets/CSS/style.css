@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'GLYPHICONS Halflings';
+    src: url('../fonts/glyphicons/GLYPHICONSHalflings-Regular.eot');
+    src: url('../fonts/glyphicons/GLYPHICONSHalflings-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/glyphicons/GLYPHICONSHalflings-Regular.woff2') format('woff2'),
+    url('../fonts/glyphicons/GLYPHICONSHalflings-Regular.woff') format('woff'),
+    url('../fonts/glyphicons/GLYPHICONSHalflings-Regular.ttf') format('truetype'),
+    url('../fonts/glyphicons/GLYPHICONSHalflings-Regular.svg#GLYPHICONSHalflings-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    src: url('../fonts/materialicons/MaterialIcons-Regular.eot');
+    src: url('../fonts/materialicons/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/materialicons/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../fonts/materialicons/MaterialIcons-Regular.woff') format('woff'),
+    url('../fonts/materialicons/MaterialIcons-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('../fonts/DejavuSerif/DejaVuSerif.eot');
+    src: url('../fonts/DejavuSerif/DejaVuSerif.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DejavuSerif/DejaVuSerif.woff2') format('woff2'),
+    url('../fonts/DejavuSerif/DejaVuSerif.woff') format('woff'),
+    url('../fonts/DejavuSerif/DejaVuSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.material-icons {
+    font-family: 'Material Icons', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+input, select, button,
+input:active, select:active, button:active,
+input:focus, select:focus, button:focus,
+input:focus-visible, select:focus-visible, button:focus-visible,
+input:after, select:after, button:after {
+    outline: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'DejaVu Serif', sans-serif;
+    font-size: 14px;
+}
+
+::selection {
+    background: #2c3e50;
+    color: whitesmoke;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ba0101;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px whitesmoke inset;
+}
+
+.linear_loading {
+    background-color: black !important;
+    z-index: 1000;
+}
+
+.linear_loading > div {
+    background-color: #ba0101 !important;
+}
+
+.circle_loading {
+    color: #ba0101 !important;
+    z-index: 1000;
+}
+
+.multi__select {
+    width: 100%;
+    color: black !important;
+}
+
+.filter__address {
+    width: 100%;
+}
+
+.notFound {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100px);
+}
+
+.dNone{
+    display: none !important;
+}

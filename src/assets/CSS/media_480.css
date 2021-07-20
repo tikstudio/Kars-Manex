@@ -1,0 +1,495 @@
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .container {
+        max-width: 99%;
+    }
+
+    .mr769 {
+        display: none !important;
+    }
+
+    .md769 {
+        display: block !important;
+    }
+
+    .mr480 {
+        display: none !important;
+    }
+
+    .md480 {
+        display: block !important;
+    }
+
+    .mf480 {
+        display: flex !important;
+    }
+
+    .header__logo {
+        width: 5%;
+    }
+
+    .navLink__buttons_block {
+        width: 10%;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .menu__button {
+        display: block;
+    }
+
+    .converter__select option {
+        background: whitesmoke;
+        color: black;
+    }
+
+    .home__banner_video {
+        display: none;
+    }
+
+    .home__banner_image {
+        display: block;
+        object-position: 14%;
+    }
+
+    .banner__scroll-down {
+        display: none;
+    }
+
+    .home__banner_content {
+        justify-content: flex-start;
+        height: 270px;
+        visibility: hidden;
+    }
+
+    .central__content_title {
+        font-size: 25px;
+    }
+
+    .central__content_subtitle {
+        font-size: 12px;
+    }
+
+    .list__container {
+        width: 100%;
+    }
+
+    .listing__item {
+        width: 80% !important;
+    }
+
+    .home__banner {
+        align-items: center;
+        flex-direction: unset;
+    }
+
+    .home__title,
+    .home__banner_logo {
+        font-size: 35px;
+    }
+
+    .dropdown-toggle .header__span {
+        display: none;
+    }
+
+    .login__button_container {
+        transform: translate(-20px, -20px) !important;
+    }
+
+    .user__button_container {
+        transform: translate(-75%, -90%) !important;
+    }
+
+    .home__header_content,
+    .home__banner_image {
+        height: 60vh;
+    }
+
+    .form.form--search.js-search-form.form--light.form--banner-sidebar.form--anim {
+        width: 100%;
+        background: none;
+    }
+
+    .banner__search .form-group .control-label {
+        font-size: 12px !important;
+    }
+
+    .banner__search .form-group {
+        margin-bottom: 7px;
+    }
+
+    .dropdown-toggle.js-select-checkboxes-btn {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .form--banner-sidebar .form__submit {
+        font-size: 11px !important;
+        padding: 6px 10px;;
+    }
+
+    .product__length {
+        width: 16%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .sort_content {
+        justify-content: center;
+    }
+
+    .user__filter_area .MuiInputLabel-outlined, .user__filter_area .MuiInputLabel-outlined.MuiInputLabel-shrink {
+        font-size: 12px !important;
+    }
+
+    .product__info_item {
+        flex-wrap: wrap;
+        line-height: 1.4;
+    }
+
+    .user__filter_block .MuiFormLabel-root {
+        font-size: 12px !important;
+    }
+
+    .product__user_name {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .product__user_email {
+        font-size: 12px;
+    }
+
+    .product__info_item p:nth-child(odd) {
+        margin-bottom: 5px;
+    }
+
+    .user_profile {
+        width: 82%;
+    }
+
+    .product__edit_image,
+    .imageEdit {
+        height: 100px;
+    }
+
+    .change__image_item {
+        width: 45%;
+    }
+
+    .change__image_content {
+        height: 270px;
+    }
+
+    .picturesEdit,
+    .modal__pictures_block {
+        width: 40%;
+    }
+
+    .picturesEdit,
+    .product__edit_pictures {
+        height: 60px;
+    }
+
+    .add__product_area label {
+        font-size: 12px !important;
+    }
+
+    .login__content {
+        justify-content: center;
+    }
+
+    .login__form {
+        width: 55%;
+        padding: 30px 20px;
+    }
+
+    .login__rgf_row .register {
+        width: 58% !important;
+        font-size: 12px;
+    }
+
+    .login__rgf_row .auth__forgot {
+        font-size: 12px;
+    }
+
+    .YMaps {
+        max-width: 100%;
+    }
+
+    .edit__price_block {
+        width: 45%;
+    }
+
+    .register__container {
+        background-color: #84817c;
+    }
+
+    .register__bg_image {
+        height: 100%;
+        object-position: left;
+    }
+
+    .register__content {
+        justify-content: center;
+        padding: 70px 20px;
+    }
+
+    .login__container {
+        background-position: unset !important;
+        height: 107vh;
+    }
+
+    .fms2,
+    .fms3 {
+        display: none;
+    }
+
+    .footer__media_section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 50%;
+    }
+
+    .footer__section3 {
+        width: 65%;
+    }
+
+    .properties__address-street {
+        font-size: 14px;
+    }
+
+    .properties__offer-value strong {
+        font-size: 16px;
+    }
+
+    .zoom__content {
+        flex-direction: column;
+    }
+
+    .info__content {
+        width: 115%;
+    }
+
+    .photos__content {
+        height: 80%;
+        width: 115%;
+        margin-bottom: 70px;
+    }
+
+    .photos__content li {
+        font-size: 14px !important;
+    }
+
+    .product__info_item p:nth-child(even) {
+        word-break: break-word;
+    }
+
+    .sort_area {
+        width: 70%;
+    }
+
+    .sortOpen {
+        width: 125px;
+    }
+
+    .filter_container,
+    .cars__filter_container {
+        width: 30%;
+        padding: 8px;
+    }
+
+    .cars__filter_container label,
+    .filter_container label {
+        font-size: 12px;
+    }
+
+    .filter__area_label {
+        font-size: 11px;
+    }
+
+    .cars__length {
+        width: unset;
+    }
+
+    .product__content {
+        justify-content: center;
+    }
+
+    .contact__container {
+        background-position: left !important;
+    }
+
+    .contact__content {
+        width: 82%;
+        margin: 100px auto;
+        justify-content: center;
+    }
+
+    .contact__form {
+        width: 90%;
+        padding: 22px;
+    }
+
+    .user__filter_area {
+        width: 45%;
+    }
+
+    .user__filter_row {
+        width: 45%;
+        text-align: center;
+    }
+
+    .user__product_list .listing__item {
+        width: 97% !important;
+    }
+
+    .user__update_profile {
+        width: 80%;
+    }
+
+    .user__filter_block {
+        padding: 8px;
+    }
+
+    .info__content.m {
+        margin-top: 30px;
+    }
+
+    .add__product_content {
+        padding: 0 10px;
+    }
+
+    .reset__password_block {
+        width: 75%;
+    }
+
+    .register__form {
+        width: 70%;
+    }
+
+    .footer__content {
+        height: 700px;
+        padding: 45px;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 700px;
+        padding: 20px;
+    }
+
+    .footer__logo {
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .footer__section1 {
+        height: 30%;
+    }
+
+    .footer__copyright {
+        bottom: 35px;
+    }
+
+    .cars__search_area,
+    .search__area {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .add {
+        width: 35%;
+    }
+
+    .product__content_row {
+        width: 68%;
+    }
+
+    .userProduct__sort_area {
+        height: 130px;
+        flex-wrap: wrap;
+    }
+
+    .user__search_area {
+        width: 75%;
+    }
+
+    .user__sort_block {
+        width: 60%;
+        transition: all 0.3s;
+    }
+
+    .user__sort_block:focus-within {
+        width: 90%;
+    }
+
+    .properties__params {
+        font-size: 10px;
+    }
+
+    .properties__ribon,
+    .properties__intro {
+        font-size: 12px;
+    }
+
+    .ReactModal__Content.ReactModal__Content--after-open {
+        width: 95%;
+    }
+
+    .dropdown__menu.auth__dropdown--login {
+        width: 250px;
+    }
+
+    .form.form--auth.js-login-form {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .auth__title {
+        text-align: center;
+    }
+
+    .form__submit {
+        padding: 6px 20px;
+        font-size: 11px;
+    }
+
+    .user__edit_row {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .add__product_area {
+        flex-wrap: wrap;
+    }
+
+    .add__product_categories {
+        width: 40%;
+    }
+
+    .add__product_images {
+        width: 50%;
+    }
+
+    .add__product_section {
+        width: 45%;
+    }
+
+    .add__product_row {
+        font-size: 12px;
+    }
+
+    .add__product {
+        height: 100%;
+    }
+
+    .change__password_form {
+        height: 77%;
+    }
+}

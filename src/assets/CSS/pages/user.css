@@ -1,0 +1,300 @@
+.user__header {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid transparent;
+    background-color: #1b1b1b;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.user__bg_image {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+
+.user__header_content {
+    width: 100%;
+    height: 180px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.user_profile {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.user_profile a {
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+.user_profile #avatar__image {
+    box-shadow: 3px 3px 3px black;
+    background: whitesmoke;
+}
+
+.image__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0 0 0 black;
+}
+
+.user__name {
+    font-family: "Noto Sans Armenian", "Open Sans", "lucida grande", tahoma, arial, sans-serif;
+}
+
+.contact__data {
+    max-height: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-shadow: 0 0 0 black;
+    font-family: "Noto Sans Armenian", "Open Sans", "lucida grande", tahoma, arial, sans-serif;
+}
+
+.account__create_date {
+    font-size: small;
+    color: #ba0101;
+}
+
+.user__content {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.user__content_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.user__filter_area {
+    width: 18%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    z-index: 1;
+}
+
+.user__filter_area .MuiInputLabel-outlined,
+.user__filter_area .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    font-size: 15px;
+}
+
+.user__product_area {
+    width: 81%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.userProduct__sort_area {
+    width: 100%;
+    height: 70px;
+    transform: translateY(-10px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 3px 3px 5px black;
+}
+
+.user__search_area {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__search_area .MuiFormControl-fullWidth {
+    box-shadow: 3px 3px 5px black;
+    border-radius: 4px;
+}
+
+.user__search_button {
+    width: 20%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    font-weight: bold;
+    background: linear-gradient(#090707, rgba(0, 0, 0, 0.8), #090707);
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.user__search_button:hover {
+    color: gainsboro;
+    box-shadow: 3px 3px 5px #2c3e50;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.user__sort_block {
+    width: 20%;
+}
+
+.user__sort_block .MuiFormControl-root {
+    box-shadow: 3px 3px 5px !important;
+    border-radius: 4px !important;
+}
+
+.user__product_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.user__product_list2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.admin.no.data {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.myAccount__add_announcement {
+    width: 100%;
+    padding: 12px;
+    color: black;
+    background: rgba(179, 179, 179, 0.9);
+    border-radius: 5px;
+    font-size: 15px;
+    display: block;
+    box-shadow: 3px 3px 5px black;
+}
+
+.myAccount__settings {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    color: black;
+    background: rgba(179, 179, 179, 0.9);
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.admin__header_content {
+    width: 100%;
+    height: 180px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.all__users_content {
+    width: 100%;
+    margin-top: 100px;
+    background: whitesmoke;
+}
+
+.all__users_title {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.all__users_content .MuiAccordion-root {
+    width: 100%;
+}
+
+.all__users_content .MuiAccordionSummary-content {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.user__products_list {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: whitesmoke;
+}
+#all__users_avatar {
+    width: 55px;
+    height: 55px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.users__sort_area {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.centering{
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}

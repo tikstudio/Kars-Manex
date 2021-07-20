@@ -1,0 +1,107 @@
+.add__product {
+    width: 100%;
+    height: 9in;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.add__product_content {
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add__product_area {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add__product_row {
+    width: 100%;
+    height: 125px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add__product .MuiPaper-root {
+    background-color: transparent !important;
+}
+
+.add__product .MuiStepLabel-label.MuiStepLabel-alternativeLabel,
+.add__product .MuiFormLabel-root,
+.add__product .MuiSelect-icon,
+.add__product_categories .MuiInputBase-root,
+.add__product_contact .MuiInputBase-root,
+.add__product_contact .MuiTypography-colorTextSecondary,
+.add__product .MuiButton-root {
+    color: whitesmoke;
+}
+
+.sc .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-marginDense.MuiOutlinedInput-marginDense {
+    color: gray;
+}
+.location__select.MuiInputBase-root,
+.product__types_select.MuiInputBase-root,
+.add__product .MuiButton-root.Mui-disabled {
+    color: grey !important;
+}
+
+.add__product .MuiOutlinedInput-notchedOutline {
+    border-color: whitesmoke;
+}
+
+.add__product_categories {
+    width: 27%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add__product_images {
+    width: 27%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add__product_images p {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.add__product_contact {
+    width: 100%;
+}
+
+.add__product_section {
+    width: 27%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add__product_row strong {
+    color: #ba0101;
+    text-shadow: 1px 1px 3px black;
+}
+

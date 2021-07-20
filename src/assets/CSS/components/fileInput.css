@@ -1,0 +1,53 @@
+.fileInput {
+    width: 90%;
+    border: 1px solid #ba0101;
+    font-size: 14px;
+    color: #ba0101;
+    padding: 14px 8px;
+    font-weight: 500;
+    transition: all 0.5s;
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.fileInput ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 108px;
+    overflow-y: auto;
+}
+
+.fileInput li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileInput:hover {
+    background: linear-gradient(whitesmoke, rgb(150, 150, 150), whitesmoke);
+}
+
+.fileInput:active {
+    background: linear-gradient(rgba(128, 128, 128, 0.5), whitesmoke, rgba(128, 128, 128, 0.5));
+}
+
+.fileInput input[type="file"],
+.imageEdit input[type="file"],
+.picturesEdit input[type="file"],
+.fileEdit input[type="file"] {
+    display: none !important;
+}
+
+.emptyFile__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.2s;
+}
