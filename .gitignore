@@ -2,7 +2,6 @@
 
 yarn.lock
 yarn-error.log
-package-lock.json
 
 /public/avatars
 /public/uploads
