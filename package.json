@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-install": "cd client && yarn install",
     "start": "node -r dotenv/config ./bin/www dotenv_config_path=.env.prodaction",
-    "server": "nodemon -r dotenv/config ./bin/www",
+    "server": "nodemon -r dotenv/config ./bin/index.js",
     "client": "cd../client && yarn start",
     "cors": "cd client && node cors.js",
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
