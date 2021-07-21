@@ -7,11 +7,14 @@ const {
 const transporter = nodemailer.createTransport({
   host: NODEMAILER_HOST,
   port: NODEMAILER_PORT,
-  secure: NODEMAILER_SECURE,
+  secureConnection: false,
   auth: {
     user: NODEMAILER_USER,
     pass: NODEMAILER_PASS,
   },
+  tls: {
+        ciphers:'SSLv3'
+   }
 });
 
 module.exports = transporter;
